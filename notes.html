@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Note - Quick Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="notes.html">My Notes</a>
+    </nav>
+
+    <main class="container">
+        <img class="banner-image" 
+             src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80" 
+             alt="Notebook and coffee on a desk">
+
+        <h1>Add a New Note</h1>
+        <form>
+            <div class="form-group">
+                <label for="note-text">Note Details</label>
+                <textarea id="note-text" name="note-text" rows="5" placeholder="Jot something down..." required></textarea>
+            </div>
+
+            <input type="submit" value="Add Note">
+        </form>
+    </main>
+</body>
+</html>
