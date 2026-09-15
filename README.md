@@ -1,0 +1,7 @@
+Project Name: Quick Notes App
+Purpose: This application allows users to store, organize, and manage short personal notes online.
+Intended User: Students and professionals looking for a simple tool to write down quick thoughts.
+Key Features:
+- User registration and login
+- Create new notes
+- View, edit, and delete existing notes
