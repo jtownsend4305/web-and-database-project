@@ -20,4 +20,4 @@ Students and professionals looking for a simple tool to write down quick thought
 2. Each **NOTE** must be created by exactly one **USER**.
 
 ### Entity Relationship Diagram (ERD)
-![Entity Relationship Diagram](./images/erd-diagram.png)
+![Entity Relationship Diagram](./images/er-diagram.png)
