@@ -21,3 +21,14 @@ Students and professionals looking for a simple tool to write down quick thought
 
 ### Entity Relationship Diagram (ERD)
 ![Entity Relationship Diagram](./images/er-diagram.png)
+
+### Relations and Normalization
+The formal relational schema derived from the ERD is structured as follows:
+
+* **`users`** (`user_id` (PK), `first_name`, `last_name`, `email`, `password_hash`, `created_at`)
+* **`notes`** (`note_id` (PK), `user_id` (FK), `note_text`, `created_at`)
+
+**Normalization Analysis:**
+* **First Normal Form (1NF):** All attributes contain atomic, single-valued data, and every table has a defined primary key (`user_id` and `note_id`) ensuring row uniqueness.
+* **Second Normal Form (2NF):** Both relations are in 1NF, and their primary keys consist of a single column (`user_id` and `note_id`), completely eliminating any partial functional dependencies.
+* **Third Normal Form (3NF):** There are no transitive dependencies; all non-key attributes in both tables depend directly and solely on their respective primary keys.
